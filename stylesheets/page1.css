@@ -1,0 +1,37 @@
+body {
+  color: #ffffff;
+}
+header {
+  padding: 10px;
+  background: #000000;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+p {
+  font-size: 24px;
+}
+#styled-by-id {
+  font-family: georgia, Cambria, serif;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 40ppx;
+  padding: 5px;
+  font-size: 20px;
+}
+.nav-link {
+  margin: 100px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.nav-link li {
+  display: inline-block;
+}
