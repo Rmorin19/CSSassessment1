@@ -1,20 +1,31 @@
 body {
-  color: #ffffff;
+  color: #ababab;
 }
 header {
-  padding: 10px;
-  background: #000000;
+  position: relative;
+  background: #1c1c1c;
+}
+#logo {
+  float: left;
+  padding: 30px 0 0 30px;
 }
 h1 {
   text-align: center;
   font-size: 40px;
+  margin: auto;
+  padding: 30px;
 }
 footer {
   padding: 50px;
-  background: #000000;
+  background: #1c1c1c;
 }
 p {
   font-size: 24px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #styled-by-id {
   font-family: georgia, Cambria, serif;
@@ -28,12 +39,17 @@ li {
   padding: 5px;
   font-size: 20px;
 }
+nav ul {
+  padding: 0;
+}
 .nav-link {
-  margin: 100px;
-  border: 2px solid rgb(255, 255, 255);
-  padding: 5px;
-  background-color: #000000;
-  color: #ffffff;
+  display: inline-block;
+  margin: 20px 0 0 -4px;
+  border: 2px solid #ababab;
+  padding: 15px 162.68px;
+  background-color: #1c1c1c;
+  color: #ababab;
+  text-decoration: none;
 }
 
 .nav-link li {
