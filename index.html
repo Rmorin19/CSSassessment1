@@ -1,3 +1,9 @@
+<!--Name:Riley Morin
+  Course:Software Development 20S 
+  Teacher:Mr. Hardman 
+  School:Pembina Trails Early College 
+  Date Last Modified:04-17-2022
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +12,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="stylesheets/page1.css" />
+    <!--Making the background azure, Setting up a div to make a 5 pixle border 
+    around things that i put div1 around-->
+    <style>
+      body {
+        background-color: azure;
+      }
+      .div1 {
+        border: 5px outset black;
+        width: 560px;
+        height: 315;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
   </head>
   <body>
     <header>
+      <!--This is to make the little logo in the heading-->
       <img
         id="logo"
         src="pictures/logo.png"
@@ -16,9 +37,11 @@
         height="60"
         alt="two red isosceles trapezoids at a 135 and 45 degree angle"
       />
+      <!--This is to make the heading of the page-->
       <h1>Valorant</h1>
+      <!---->
       <nav tabindex="1">
-        <ul>
+        <ul tabindex="2">
           <a href="index.html" class="nav-link"><li>Home</li></a>
           <a href="agents.html" class="nav-link"><li>Agents</li></a>
           <a href="maps.html" class="nav-link"><li>Maps</li></a>
@@ -26,6 +49,9 @@
         </ul>
       </nav>
     </header>
+
+    <br />
+
     <main>
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg"
@@ -33,13 +59,37 @@
         height="350"
         alt="two red isosceles trapezoids at a 135 and 45 degree angle with Valorant spelled out in red letters"
         class="center"
+        tabindex="3"
       />
-      <p tabindex="2" style="text-align: center">
-        Valorant is a fps game developed by Riot Games who have also made games
-        such League of Legends, Legends of Runeterra, and Teamfight Tactics.
-        Valorant currently has 18 agents with more in the works. Every agent has
+
+      <br />
+
+      <p tabindex="4" style="text-align: center">
+        <span style="color: red">Valorant</span> is a fps game developed 2020 in
+        by Riot Games who have also made games such League of Legends, Legends
+        of Runeterra, and Teamfight Tactics.
+        <span style="color: red">Valorant</span>
+        currently has 18 agents with more in the works. Every agent has
         different abilitiess such as healing, running faster, poison, and fire.
       </p>
+
+      <br />
+
+      <div class="div1">
+        <iframe
+          tabindex="5"
+          class="center"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/e_E9W2vsRbQ"
+          title="A video showing the abilities of some of the agents in Valorant"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <br />
     </main>
     <footer></footer>
   </body>
