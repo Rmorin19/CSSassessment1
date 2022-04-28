@@ -1,9 +1,10 @@
 body {
-  color: #ababab;
+  background-color: azure;
 }
 header {
+  color: #ababab;
   position: relative;
-  background: #1c1c1c;
+  background: #212121;
 }
 #logo {
   float: left;
@@ -17,7 +18,7 @@ h1 {
 }
 footer {
   padding: 50px;
-  background: #1c1c1c;
+  background: #212121;
 }
 p {
   font-size: 24px;
@@ -32,26 +33,27 @@ p {
   font-weight: bold;
 }
 ul {
-  list-style: none;
-}
-li {
-  margin: 40ppx;
-  padding: 5px;
-  font-size: 20px;
-}
-nav ul {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #212121;
 }
-.nav-link {
-  display: inline-block;
-  margin: 20px 0 0 -4px;
-  border: 2px solid #ababab;
-  padding: 15px 162.68px;
-  background-color: #1c1c1c;
+
+li {
+  float: left;
+  width: 25%;
+}
+
+li a {
+  display: block;
   color: #ababab;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.nav-link li {
-  display: inline-block;
+li a:hover {
+  background-color: rgb(49, 49, 49);
+  border: #ababab;
 }
