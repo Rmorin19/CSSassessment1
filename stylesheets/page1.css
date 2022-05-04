@@ -1,42 +1,62 @@
+/*
+The neutral colors are apropriate to the games colors and the 
+website has a dark theme. The game doesnt have many colors that
+pop out and has a similar color theme as there actual website. 
+*/
+
+/*This makes the background grey*/
 body {
   background-color: #b8bebe;
 }
+/*This makes the text color off white and the header dark grey*/
 header {
   color: #eee8ec;
   position: relative;
   background: #212121;
 }
+/*This puts the logo to the left and keeps it in line with the heading*/
 #logo {
   float: left;
   padding: 30px 0 0 30px;
 }
+/*This keeps the h1 to the center and makes the font size to 60px*/
 h1 {
   text-align: center;
   font-size: 60px;
   margin: auto;
   padding: 30px;
 }
+/*This keeps h2s to the center and makes the font size 32px*/
 h2 {
   text-align: center;
   font-size: 32px;
 }
+/*This makes the footer the same color as the header*/
 footer {
   padding: 50px;
   background: #212121;
 }
+/*This makes the font size 24px for all paragraphs*/
 p {
   font-size: 24px;
-  color: eee8ec;
 }
+/*This is the class for center*/
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+/*This makes a font family and makes the line spacing 200%*/
 #styled-by-id {
   font-family: georgia, Cambria, serif;
-  font-weight: bold;
+  line-height: 200%;
 }
+/*
+  This tyles the navagation, it gives it the same color as the 
+  header and footer, gives the text a of white color, makes them 
+  navagation bar go across the whole page, it changes color when 
+  you hover over the links
+ */
 ul {
   list-style-type: none;
   margin: 0;

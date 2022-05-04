@@ -1,3 +1,9 @@
+<!--Name:Riley Morin
+  Course:Software Development 20S 
+  Teacher:Mr. Hardman 
+  School:Pembina Trails Early College 
+  Date Last Modified:05-03-2022
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,8 +11,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agents</title>
+    <!--This links the external style sheet to this page-->
     <link rel="stylesheet" href="stylesheets/page1.css" />
     <style>
+      /*This centers the paragraph, make the text a certain color and keeps in to a certain width*/
       #p1 {
         display: block;
         margin-left: auto;
@@ -14,28 +22,34 @@
         width: 45%;
         color: #292728;
       }
+      /*This keeps the paragraph to the left, make the text a certain color and keeps in to a certain width*/
       #p2 {
         margin-left: 65%;
         margin-right: 10%;
         color: #292728;
       }
+      /*This keeps the paragraph to the right, make the text a certain color and keeps in to a certain width*/
       #p3 {
         margin-left: 10%;
         margin-right: 65%;
         color: #292728;
       }
+      /*This keeps the paragraph to the left and gives it some margins*/
       #pic1 {
         float: left;
         padding: 30px 0 0 200px;
       }
+      /*This keeps the paragraph to the right and gives it some margins*/
       #pic2 {
         float: right;
         padding: 30px 100px 0 200px;
       }
+      /*This centers the table*/
       table {
         margin-left: auto;
         margin-right: auto;
       }
+      /*This puts a boer around the home image*/
       #home-image {
         border: 5px outset black;
         width: 40%;
@@ -45,27 +59,32 @@
       }
     </style>
   </head>
-  <body>
+  <body id="styled-by-id">
     <header>
+      <!--This defines the width and height of the logo-->
       <img
         id="logo"
         src="pictures/logo.png"
         width="60"
         height="60"
         alt="two red isosceles trapezoids at a 135 and 45 degree angle"
+        tabindex="1"
       />
-      <h1>Agents</h1>
+      <!--This is the Heading-->
+      <h1 tabindex="1">Agents</h1>
+      <!--This is the navagation-->
       <nav>
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="agents.html">Agents</a></li>
-          <li><a href="maps.html">Maps</a></li>
-          <li><a href="pewpews.html">Pew Pews</a></li>
+          <li><a class="active" href="index.html" tabindex="1">Home</a></li>
+          <li><a href="agents.html" tabindex="1">Agents</a></li>
+          <li><a href="maps.html" tabindex="1">Maps</a></li>
+          <li><a href="pewpews.html" tabindex="1">Pew Pews</a></li>
         </ul>
       </nav>
     </header>
     <br />
     <main>
+      <!--This is the Home photo, it centers it and defines the with and height-->
       <img
         src="https://topwordy.com/wp-content/uploads/2022/02/Valorant-Agents.jpg"
         width="600"
@@ -74,9 +93,11 @@
       infornt of the games logo and the transparent word valorant"
         class="center"
         id="home-image"
+        tabindex="1"
       />
       <br />
-      <p id="p1">
+      <!--This is the first paragaph that talks about the different type of agents-->
+      <p id="p1" tabindex="1">
         There are 4 different types of valorant agents which are Duelist,
         initiator, controller, and sentinel. Duelists are agents that are
         self-sufficent agents that are used to be aggressive and can hopefully
@@ -88,7 +109,14 @@
       </p>
 
       <br />
-      <table style="text-align: center" border="1" frame="void" rules="columns">
+      <!--This is the table, it centers it and gives it a border-->
+      <table
+        style="text-align: center"
+        border="1"
+        frame="void"
+        rules="columns"
+        tabindex="1"
+      >
         <tr>
           <th>Type of Agent</th>
           <th>How many in a Team</th>
@@ -117,8 +145,10 @@
       </table>
       <br />
 
-      <h2>Duelists</h2>
+      <!--This is the heading for the first type of agents-->
+      <h2 tabindex="1">Duelists</h2>
       <br />
+      <!--This is the image that is under the duelist heading-->
       <img
         src="https://s.yimg.com/os/creatr-uploaded-images/2021-08/05c892c0-f4de-11eb-9a76-57c0ea495a49"
         width="30%"
@@ -126,9 +156,10 @@
         alt="Yoru, Raze, Reyna, Jett, And Phoenix all
       standing infront of a dark and light purple background."
         id="pic1"
+        tabindex="1"
       />
-
-      <p id="p2">
+      <!--This is the paragraph that is across from the image-->
+      <p id="p2" tabindex="1">
         There are 6 duelists avalible to pick in the game. They are called Raze,
         Jett, Yoru, Neon, Reyna, and Phoenix. All of them but Phoenix have an
         ability that enahces there movement. Reyna and Phoenix have the ability
@@ -140,17 +171,20 @@
       </p>
 
       <br />
-
-      <h2>Initiators</h2>
+      <!--This is the heading for the second type of agents-->
+      <h2 tabindex="1">Initiators</h2>
       <br />
+      <!--This is the image that is under the second heading-->
       <img
         src="https://staticg.sportskeeda.com/editor/2021/12/d1444-16407662449125-1920.jpg"
         width="30%"
         height="40%"
         alt="Sova hoalding an operator, Sky with a wolf made of a tree, Breach, and KAY/O the robot in front of a neon green valorant logo"
         id="pic2"
+        tabindex="1"
       />
-      <p id="p3">
+      <!--This paragraph that is across the second image-->
+      <p id="p3" tabindex="1">
         With 5 initiators and Fade as the newest, they are Sova, Breach, Skay,
         KAY/O, and Fade. Sova and Fade's abilities aire more on the side of
         getting the positions of the oposing players while Sky and KAY/O are
@@ -162,17 +196,20 @@
       </p>
 
       <br />
-
-      <h2>Controllers</h2>
+      <!--This is the heading for the third type f agents-->
+      <h2 tabindex="1">Controllers</h2>
       <br />
+      <!--This is the image under the third heading-->
       <img
         src="https://moroesports.com/wp-content/uploads/2022/03/fe974-16255236126367-800-1280x720.jpg"
         width="30%"
         height="20%"
         alt="Brimstone, Viper, Omen, and Astra all standing in front of a gray, black, pink, and blue background respectively."
         id="pic1"
+        tabindex="1"
       />
-      <p id="p2">
+      <!--This is the picture across from the third image-->
+      <p id="p2" tabindex="1">
         Brimstone, Viper, Omen, and Astra make up the controllers of the
         Valorant protocal. Brimstone and Astra will have a birds eye view of the
         map to place down there smokes that will block both teams lign of sight.
@@ -181,25 +218,32 @@
         looking.
       </p>
       <br />
-      <h2>Sentinels</h2>
+      <!--This is the heading for the last type of agents-->
+      <h2 tabindex="1">Sentinels</h2>
       <br />
+      <!--This is the last image-->
       <img
         src="pictures/Senitnels.jpg"
         width="35%"
         height="25%"
         alt="Kill Joy holding a frenzi, Cypher holding a ghost, and asge holding a stinger infront of a neon Valorant logo"
         id="pic2"
+        tabindex="1"
       />
-      <p id="p3">
+      <!--This is the last paragraph-->
+      <p id="p3" tabindex="1">
         The sentinels of Valorant are Kill Joy, Cypher, Chamber, and Sage. They
         are all very different yet have the same purpose. Sage can heal herself
         and her team and has a wall of ice that can be used to block paths and
         get to tricky spots. Cypher has tripwires and a camera that he uses to
         pin point the enemy. Chamber has the ability to teloport and pull out a
         pew pew that is very much like the sheriff. Kill Joy has a turret and a
-        little robot that makes the opposing team team vulnerable.
+        little robot that makes the opposing team vulnerable.
       </p>
     </main>
+    <br />
+    <br />
+    <br />
     <br />
     <footer></footer>
   </body>
