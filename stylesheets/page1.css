@@ -7,6 +7,7 @@ pop out and has a similar color theme as there actual website.
 /*This makes the background grey*/
 body {
   background-color: #b8bebe;
+  margin: 5px 10px;
 }
 /*This makes the text color off white and the header dark grey*/
 header {
@@ -52,7 +53,7 @@ p {
   line-height: 200%;
 }
 /*
-  This tyles the navagation, it gives it the same color as the 
+  This styles the navagation, it gives it the same color as the 
   header and footer, gives the text a of white color, makes them 
   navagation bar go across the whole page, it changes color when 
   you hover over the links
@@ -72,7 +73,7 @@ li {
 
 li a {
   display: block;
-  color: #ababab;
+  color: #eee8ec;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -80,5 +81,5 @@ li a {
 
 li a:hover {
   background-color: rgb(49, 49, 49);
-  border: #ababab;
+  border: #eee8ec;
 }
