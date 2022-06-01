@@ -7,24 +7,6 @@
     <title>Maps</title>
     <link rel="stylesheet" href="stylesheets/page1.css" />
     <style>
-      .flip-card {
-        background-color: transparent;
-        width: 35%;
-        height: 25%;
-        border: 2px solid #121212;
-        perspective: 100px;
-      }
-      .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-      }
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
       section {
         width: 50%;
         margin: auto;
@@ -36,6 +18,14 @@
         background-color: aliceblue;
         margin-left: 13%;
         margin-right: 13%;
+      }
+      .maps {
+        margin-left: 580px;
+      }
+      .sticky {
+        position: sticky;
+        top: 0%;
+        z-index: 3;
       }
     </style>
   </head>
@@ -49,15 +39,18 @@
         alt="two red isosceles trapezoids at a 135 and 45 degree angle"
       />
       <h1>Maps</h1>
-      <nav>
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="agents.html">Agents</a></li>
-          <li><a href="maps.html">Maps</a></li>
-          <li><a href="pewpews.html">Pew Pews</a></li>
-        </ul>
-      </nav>
     </header>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html" class="sticky">Home</a></li>
+        <li><a href="agents.html" class="sticky">Agents</a></li>
+        <li><a href="maps.html" class="sticky">Maps</a></li>
+        <li><a href="pewpews.html" class="sticky">Pew Pews</a></li>
+      </ul>
+    </nav>
+
+    <br />
+
     <main>
       <img
         src="pictures/Haven.png"
@@ -68,6 +61,7 @@
         class="center"
         style="padding: 5px 10px"
       />
+
       <section>
         <p>
           There are 7 maps in Valorant that are based off of real places such as
@@ -75,6 +69,7 @@
           each type and induvidual character.
         </p>
       </section>
+
       <div>
         <h1>Ascent</h1>
         <img
@@ -83,11 +78,12 @@
           height="310px"
           alt=""
           style="margin-left: 30px"
-          class="maps"
         />
         <p></p>
       </div>
+
       <br />
+
       <div>
         <h1>Bind</h1>
         <img
@@ -95,12 +91,13 @@
           width="47%"
           height=""
           alt=""
-          style="margin-left: 30px"
           class="maps"
         />
         <p></p>
       </div>
+
       <br />
+
       <div>
         <h1>Breeze</h1>
         <img
@@ -109,26 +106,65 @@
           height=""
           alt=""
           style="margin-left: 30px"
+        />
+        <p></p>
+      </div>
+
+      <br />
+
+      <div>
+        <h1>Fracture</h1>
+        <img
+          src="pictures/Fracture.jpg"
+          width="47%"
+          height=""
+          alt=""
           class="maps"
         />
         <p></p>
       </div>
+
       <br />
-      <h1>Fracture</h1>
-      <img src="pictures/Fracture.jpg" width="" height="" alt="" />
-      <p></p>
+
+      <div>
+        <h1>Haven</h1>
+        <img
+          src="pictures/Haven2.png"
+          width="47%"
+          height=""
+          alt=""
+          style="margin-left: 30px"
+        />
+        <p></p>
+      </div>
+
       <br />
-      <h1>Haven</h1>
-      <img src="pictures/Haven2.png" width="" height="" alt="" />
-      <p></p>
+
+      <div>
+        <h1>Icebox</h1>
+        <img
+          src="pictures/IceBox.jfif"
+          width="47%"
+          height=""
+          alt=""
+          class="maps"
+        />
+        <p></p>
+      </div>
+
       <br />
-      <h1>Icebox</h1>
-      <img src="pictures/IceBox.jfif" width="" height="" alt="" />
-      <p></p>
-      <br />
-      <h1>Split</h1>
-      <img src="pictures/Split.jfif" width="" height="" alt="" />
-      <p></p>
+
+      <div>
+        <h1>Split</h1>
+        <img
+          src="pictures/Split.jfif"
+          width="47%"
+          height=""
+          alt=""
+          style="margin-left: 30px"
+        />
+        <p></p>
+      </div>
     </main>
     <br />
     <footer></footer>
