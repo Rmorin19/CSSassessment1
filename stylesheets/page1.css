@@ -47,6 +47,11 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+#sticky {
+  position: sticky;
+  top: 0%;
+  z-index: 3;
+}
 /*This makes a font family and makes the line spacing 200%*/
 #styled-by-id {
   font-family: georgia, Cambria, serif;
