@@ -98,41 +98,44 @@
           visibility: visible;
         }
       }
-
+      /* This section will keep the content in the middle and make it wrap the words*/
       section {
         width: 50%;
         margin: auto;
         word-wrap: break-word;
       }
+      /* This div puts a white box with a black border around the content that is inside.*/
       div {
+        display: inline-block;
         border: 3px solid black;
         border-radius: 50px;
         background-color: aliceblue;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin: 2% 10%;
         z-index: 0;
       }
+      /* This puts the content on the right side of the container and puts it at 47% of the screens width. */
       .maps {
         width: 47%;
-        height: 310px;
-        margin-left: 50%;
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 30px;
       }
+      /* This puts the content on the left side of the container and puts it at 47% of the screens width.  */
       .maps2 {
         width: 47%;
-        height: 310px;
+        float: left;
         margin-left: 30px;
+        margin-bottom: 30px;
       }
-      .p1 {
-        display: flex;
-
-        margin-left: 55%;
-        margin-right: 10%;
+      /* This  puts the paragraphs at a width of 40% and gives it a margin of 0 5% and 30px*/
+      .box-para {
+        display: inline-block;
+        width: 40%;
+        margin: 0 5% 30px;
         word-wrap: break-word;
         text-align: left;
       }
-      .p2 {
-        display: block;
-      }
+      /* this will position the content is positioned 50px from the top and 10px to the right of its normal position */
       #relative {
         position: relative;
         top: 50px;
@@ -172,10 +175,11 @@
         Theres a main temple and many other buildings based in a chinese style and cherry blossoms"
         border="4"
         class="center"
+        tabindex="1"
       />
 
       <section>
-        <p>
+        <p tabindex="1">
           There are 7 maps in Valorant that are based off of real places such as
           Santa Fe, Tokyo, and Venice. They all have different advantages for
           each type and induvidual character. They are all based in the near
@@ -185,9 +189,17 @@
       </section>
 
       <div>
-        <h1 class="animation1">Ascent</h1>
-        <img src="pictures/Ascent.webp" alt="" class="maps2" id="relative" />
-        <p class="p1">
+        <h1 class="animation1" tabindex="1">Ascent</h1>
+        <img
+          src="pictures/Ascent.webp"
+          alt="There is a birds eye veiw of th map ascent. It is a part of venice 
+          in the sky. There is a clock tower, many buildings, and other ruins that 
+          are floating."
+          class="maps2"
+          id="relative"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Ascent is placed in Venice Italy in the near future which is also
           where the practice range is located. Its 2 sites are played very
           differently from each other. One gives the defenders the high ground
@@ -201,13 +213,15 @@
       <br />
 
       <div>
-        <h1 class="animation1">Bind</h1>
+        <h1 class="animation1" tabindex="1">Bind</h1>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8NuYjBHk2ymaPb5UvTDMqRwxIaNUu2J0sQ&usqp=CAUs1OhZBZu031lDZqTNRQ7CvWVwuULmpc1FCyCTcpfWULmpQ9FDyCfWUheoM1LRQrJDcprPTDTYpgKz60hemkUhWgVH/2Q=="
-          alt=""
+          alt="Bind is in the desert. There is a broken arch sand covering everything and 
+          a few tropical plants."
           class="maps"
+          tabindex="1"
         />
-        <p>
+        <p class="box-para" tabindex="1">
           Bind is based in Morocco and has teloporters that brind you from one
           site to mid and one site to the other. The first site has high ground
           for the deffenders and the other site gives the other side the high
@@ -219,9 +233,15 @@
       <br />
 
       <div>
-        <h1 class="animation1">Breeze</h1>
-        <img src="pictures/Breeze.webp" alt="" class="maps2" />
-        <p>
+        <h1 class="animation1" tabindex="1">Breeze</h1>
+        <img
+          src="pictures/Breeze.webp"
+          alt="This is a birds eye veiw of the map breeze. There is a small beach and cove.
+          There is a pirateship in the distance and ruins on the beach."
+          class="maps2"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Breeze is an island in the Bermuda Triangle with ancient ruins. The
           map looks like a beach. The first site has 2 big pyramids in the
           middle and the other team has a cave while the deffenders use the
@@ -233,9 +253,16 @@
       <br />
 
       <div>
-        <h1 class="animation1">Fracture</h1>
-        <img src="pictures/Fracture.jpg" alt="" class="maps" />
-        <p>
+        <h1 class="animation1" tabindex="1">Fracture</h1>
+        <img
+          src="pictures/Fracture.jpg"
+          alt="This picture is a birds eye view of fracture. It has a buid diamond shaped 
+          building and an over grown look. there is a very big building surrounding it with 
+          sand everywhere."
+          class="maps"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Fracture is where a sience expirament went wrong and kill all the
           scientist who where working there. This map has ziplines that let you
           get from one side to the other. The deffenders spawn point is in th
@@ -248,9 +275,15 @@
       <br />
 
       <div>
-        <h1 class="animation1">Haven</h1>
-        <img src="pictures/Haven2.png" alt="" class="maps2" />
-        <p>
+        <h1 class="animation1" tabindex="1">Haven</h1>
+        <img
+          src="pictures/Haven2.png"
+          alt="The picture is of a building in the map haven. There are traditional chinese 
+          buildings and plants. it has mountains in the background and the round is very old."
+          class="maps2"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Haven is the only map with 3 sites. It is based in Bhutan. it has a
           very tradition chinese style and many cherry blossoms. The fist site
           gives the defenders the high ground and the other team the very low
@@ -264,9 +297,15 @@
       <br />
 
       <div>
-        <h1 class="animation1">Icebox</h1>
-        <img src="pictures/IceBox.jfif" alt="" class="maps" />
-        <p>
+        <h1 class="animation1" tabindex="1">Icebox</h1>
+        <img
+          src="pictures/IceBox.jfif"
+          alt="Icebox has mountains in the distance and big building. it also has many 
+          shiping containers and a ship that would be used to transport them."
+          class="maps"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Ice Box is based on an island it the northen Russian sea. It is a
           shiping dock and the first site is base around them. The 2nd one is
           the place where they process the shipments. It favours the mid ranged
@@ -277,9 +316,15 @@
       <br />
 
       <div>
-        <h1 class="animation1">Split</h1>
-        <img src="pictures/Split.jfif" alt="" class="maps2" />
-        <p>
+        <h1 class="animation1" tabindex="1">Split</h1>
+        <img
+          src="pictures/Split.jfif"
+          alt="This picture has a big diamond shaped building with some apartments and 
+          houses that have a semi modern look."
+          class="maps2"
+          tabindex="1"
+        />
+        <p class="box-para" tabindex="1">
           Split is located in Tokyo, Japan and has a modern but overgrown look.
           Its two sites both offer high ground for the deffenders but it is very
           easy to counter with the other teams very good access to mid which
